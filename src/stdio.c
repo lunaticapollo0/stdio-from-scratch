@@ -4,7 +4,9 @@ int putchar(int c)
 {
    unsigned char ch=(unsigned char)c;
    DWORD written;
-   WriteFile(GetStdHandle(STD_OUTPUT_HANDLE), &ch, 1, &written, NULL);
+   BOOL success = WriteFile(GetStdHandle(STD_OUTPUT_HANDLE), &ch, 1, &written, NULL);
+   if (!success || written != 1)
+        return -1;
    return c;
    
 }
