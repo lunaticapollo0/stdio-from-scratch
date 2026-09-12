@@ -1,0 +1,26 @@
+# stdio-from-scratch
+
+implementation of C's stdio library functionality from scratch, mainly for understanding how standard I/O works under
+the hood by implementing the functions myself rather than relying entirely on the standard library.
+
+## Current Progress
+
+starting with the simpler functions and gradually building towards more functionality and more complex functions.
+
+### Implemented
+
+* `putchar()`
+* `getchar()`
+
+More functions will be added as the project develops.
+
+## Goals
+
+* Understand how C standard I/O works internally
+* Work with low-level I/O concepts
+* Gradually build a more complete `stdio` implementation
+
+## Note
+
+This is a learning project and is **not intended to replace the standard C library**.
+The implementation will evolve over time as I explore more of the functionality provided by `stdio.h`.
