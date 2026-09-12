@@ -18,11 +18,33 @@ starting with the simpler functions and gradually building towards more function
 
 More functions will be added as the project develops.
 
-## Goals
+#### Roadmap
 
-* Understand how C standard I/O works internally
-* Work with low-level I/O concepts
-* Gradually build a more complete `stdio` implementation
+### Basic I/O
+
+- [x] putchar()
+- [x] getchar()
+- [ ] puts()
+- [ ] fgets()
+
+### Stream handling
+
+- [ ] FILE
+- [ ] putc()
+- [ ] fgetc()
+- [ ] fflush()
+
+### File I/O
+
+- [ ] fopen()
+- [ ] fclose()
+- [ ] fread()
+- [ ] fwrite()
+
+### Formatted I/O
+
+- [ ] printf()
+- [ ] scanf()
 
 ## Note
 
