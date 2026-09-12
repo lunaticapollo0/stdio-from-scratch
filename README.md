@@ -1,7 +1,11 @@
 # stdio-from-scratch
 
-implementation of C's stdio library functionality from scratch, mainly for understanding how standard I/O works under
-the hood by implementing the functions myself rather than relying entirely on the standard library.
+A learning project implementing parts of C's `stdio` library functionality
+from scratch, using the Windows API (`windows.h`) as the underlying I/O layer.
+
+The goal is to understand how standard I/O works under the hood by implementing
+the functionality myself rather than relying entirely on the existing C
+standard library.
 
 ## Current Progress
 
